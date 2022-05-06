@@ -1,0 +1,30 @@
+@mixin theme {
+    color: $primary-color;
+    font-Weight: 700;
+    font-size: 28px;
+}
+
+@mixin Milk {
+    background: $white;
+    box-shadow: -4px 4px 0px 4px rgba(233, 233, 233, 0.2);
+    border-radius: 96px 6px;
+}
+
+@mixin footerh4 {
+    font-weight: 700;
+    font-size: 20px;
+    color: $licolor;
+}
+
+@mixin footerp {
+    margin-top: 16px;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 20px;
+    text-align: justify;
+    color: $licolor;
+}
+
+$primary-color:#ECA729;
+$white:#FFFFFF;
+$licolor:#575757;

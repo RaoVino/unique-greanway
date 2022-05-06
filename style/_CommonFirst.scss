@@ -1,0 +1,78 @@
+.BackgroundSec {
+    background: url(/training/images/bg.png);
+    background-repeat: no-repeat;
+    height: 450px;
+    background-size: cover;
+}
+
+.OrganicSec {
+    width: 100%;
+    background-image: url(/training/images/all/background.png);
+    background-repeat: no-repeat;
+    background-position: bottom;
+    padding: 100px 0;
+    h3 {
+        @include theme;
+        background-color: $white;
+        text-align: center;
+        padding: 40px;
+        width: 54%;
+        margin: auto;
+    }
+    .OrganicFood {
+        display: flex;
+        align-items: center;
+        margin: auto;
+        width: 54%;
+        background-color: $white;
+        .ParaSec {
+            text-align: left;
+            font-size: 18px;
+            font-weight: 400;
+            padding: 10px 20px;
+        }
+    }
+}
+
+.FruitSec {
+    display: flex;
+    .SetofImg {
+        margin-top: 42px;
+        width: 100%;
+        h3 {
+            @include theme;
+            text-align: center;
+            margin-bottom: 53px;
+        }
+        .Products {
+            display: flex;
+            flex-wrap: wrap;
+            width: 85%;
+            height: 100%;
+            text-align: center;
+            margin: auto;
+            li {
+                flex-basis: 25%;
+                h5 {
+                    color: $licolor;
+                }
+            }
+        }
+    }
+    .fruitlogo {
+        position: relative;
+        background-color: #E5E5E5;
+    }
+    .LogoFirst {
+        position: absolute;
+        border-radius: 100px;
+        width: 180px;
+        height: 180px;
+        background: #E1FFD4;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        top: 40%;
+        right: -80px;
+    }
+}

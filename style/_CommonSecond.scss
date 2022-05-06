@@ -1,0 +1,132 @@
+    .WhyUnique {
+        width: 100%;
+        height: 80%;
+        background: #F8F4F1;
+        h3 {
+            @include theme;
+            text-align: center;
+            padding: 150px;
+        }
+        .ChemicalSec {
+            display: flex;
+            justify-content: space-between;
+            margin: auto;
+            width: 80%;
+            .MilkSec {
+                flex-basis: 33%;
+                position: relative;
+                img {
+                    background: $white;
+                    width: 102px;
+                    border: 2px solid #ECA729;
+                    box-sizing: border-box;
+                    border-radius: 80px;
+                    position: absolute;
+                    bottom: 113px;
+                    left: -49px;
+                }
+                .Milk {
+                    width: 300px;
+                    @include Milk;
+                    align-items: center;
+                    border-radius: 60px 0px 60px 5px;
+                    padding: 40px;
+                    h5 {
+                        color: $primary-color;
+                        font-size: 18px;
+                        font-weight: 700;
+                        text-align: center;
+                    }
+                    p {
+                        color: $licolor;
+                        font-size: 16px;
+                        text-align: center;
+                    }
+                }
+            }
+        }
+    }
+    
+    .OurProducts {
+        h3 {
+            @include theme;
+            text-align: center;
+            margin: 100px 0;
+        }
+        .NutritionSec {
+            display: flex;
+            .NutriSec {
+                width: 20%;
+                background-image: url(/training/images/whyunique/ourproducts.png);
+                background-repeat: no-repeat;
+                text-align: center;
+                h3 {
+                    color: $white;
+                    width: 291px;
+                    margin-top: 30px;
+                }
+                button {
+                    color: $white;
+                    border-radius: 12px;
+                    padding: 5px 10px;
+                    background: none;
+                    border: 2px solid $white;
+                    margin-top: 30px;
+                    font-family: Lora;
+                    font-size: 24px;
+                    font-weight: 700;
+                    line-height: 31px;
+                }
+            }
+            .AlmondSec {
+                display: flex;
+                width: 100%;
+                justify-content: space-around;
+                .Whitebottle {
+                    border: 1px solid #E9E9E9;
+                    text-align: center;
+                    p {
+                        margin-bottom: 20px;
+                        color: $licolor;
+                    }
+                    span {
+                        color: $licolor;
+                    }
+                    .IPbutton {
+                        img {
+                            background-color: #759264;
+                            border: 1px solid black;
+                            border-radius: 16px;
+                            width: 30px;
+                            height: 30px;
+                        }
+                        input {
+                            width: 100px;
+                            text-align: center;
+                            margin: 20px 20px;
+                            padding: 10px;
+                            color: $licolor;
+                            background: $white;
+                            border: 1px solid #C4C4C4;
+                            border-radius: 20px;
+                            outline: none;
+                        }
+                    }
+                    div {
+                        button {
+                            width: 175px;
+                            padding: 10px;
+                            border-radius: 50px;
+                            border: 1px solid #C4C4C4;
+                            background: #759264;
+                            color: $white;
+                            cursor: pointer;
+                            &:active {
+                                color: $primary-color;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }

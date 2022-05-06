@@ -1,0 +1,108 @@
+footer {
+    background-color: #E1FFD4;
+    .Cereals {
+        margin: 30px;
+        border-bottom: 2px solid $primary-color;
+        h4 {
+            @include footerh4;
+            margin-top: 100px;
+        }
+        p {
+            line-height: 33px;
+            font-weight: 400;
+            font-size: 16px;
+            color: $licolor;
+            margin-bottom: 37px;
+        }
+    }
+    .CopyRight {
+        background-color: $primary-color;
+        font-weight: 700, bold;
+        font-size: 20px;
+        text-align: center;
+        P {
+            padding: 10px 0;
+            margin: 0;
+        }
+    }
+    .Allabout {
+        display: flex;
+        width: 90%;
+        margin: auto;
+        justify-content: space-between;
+        padding: 20px;
+        .AboutusSec {
+            flex-basis: 25%;
+            h4 {
+                @include footerh4;
+                margin-top: 10px;
+            }
+            p {
+                @include footerp;
+                margin: 16px 0;
+            }
+            .iconsec {
+                margin-top: 16px;
+                cursor: pointer;
+            }
+            span {
+                font-size: 16px;
+                font-weight: 400;
+                line-height: 20px;
+                margin-top: 16px;
+            }
+        }
+        .Touch {
+            flex-basis: 25%;
+            h4 {
+                @include footerh4;
+                margin-top: 10px;
+            }
+            p {
+                margin: 20px 0;
+                color: $licolor;
+                a {
+                    @include footerp;
+                    text-decoration: none;
+                }
+            }
+            span {
+                font-size: 16px;
+                font-weight: 400;
+                line-height: 20px;
+                cursor: pointer;
+            }
+        }
+        .QuickLink {
+            h4 {
+                @include footerh4;
+                margin-bottom: 20px;
+            }
+            ul {
+                li {
+                    margin-bottom: 14px;
+                    a {
+                        color: $licolor;
+                        text-decoration: none;
+                    }
+                }
+            }
+        }
+        .Usefull {
+            h4 {
+                @include footerh4;
+                margin-bottom: 20px;
+            }
+            ul {
+                cursor: pointer;
+                li {
+                    margin-bottom: 16px;
+                    a {
+                        color: $licolor;
+                        text-decoration: none;
+                    }
+                }
+            }
+        }
+    }
+}

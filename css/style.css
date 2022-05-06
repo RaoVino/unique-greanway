@@ -1,0 +1,485 @@
+* {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  box-sizing: border-box;
+}
+
+header {
+  background-color: #FFFFFF;
+  width: 100%;
+  box-shadow: 0px 4px 14px #C4C4C4;
+}
+header .HeadSec {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+header .HeadSec .LinkSec {
+  display: flex;
+  align-items: center;
+}
+header .HeadSec .LinkSec ul {
+  display: flex;
+  color: #575757;
+}
+header .HeadSec .LinkSec ul li {
+  margin-right: 50px;
+  font-size: x-large;
+  cursor: pointer;
+}
+header .HeadSec .LinkSec ul li:active {
+  color: #ECA729;
+}
+header .HeadSec .LinkSec ul li:nth-child(2)::after {
+  content: "";
+  background-image: url(/training/images/whyunique/Down\ arrow.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  padding: 10px;
+}
+header .HeadSec .LinkSec ul li:nth-child(3)::after {
+  content: "";
+  background-image: url(/training/images/whyunique/Down\ arrow.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  padding: 10px;
+}
+header .HeadSec .HomeSec {
+  color: #ECA729;
+}
+
+.ButtonSec button {
+  color: #FFFFFF;
+  border-radius: 50px;
+  padding: 16px 32px;
+  margin-right: 10px;
+  font-size: larger;
+  cursor: pointer;
+  border: none;
+  outline: none;
+  background-color: #ECA729;
+}
+
+.logoSec {
+  display: flex;
+  padding: 10px;
+}
+.logoSec .uniq {
+  color: #ECA729;
+  margin: 0%;
+}
+.logoSec .GreenSec {
+  color: #759264;
+  margin: 0%;
+}
+.logoSec .UniqeGreen {
+  margin-top: 35px;
+}
+
+.BackgroundSec {
+  background: url(/training/images/bg.png);
+  background-repeat: no-repeat;
+  height: 450px;
+  background-size: cover;
+}
+
+.OrganicSec {
+  width: 100%;
+  background-image: url(/training/images/all/background.png);
+  background-repeat: no-repeat;
+  background-position: bottom;
+  padding: 100px 0;
+}
+.OrganicSec h3 {
+  color: #ECA729;
+  font-Weight: 700;
+  font-size: 28px;
+  background-color: #FFFFFF;
+  text-align: center;
+  padding: 40px;
+  width: 54%;
+  margin: auto;
+}
+.OrganicSec .OrganicFood {
+  display: flex;
+  align-items: center;
+  margin: auto;
+  width: 54%;
+  background-color: #FFFFFF;
+}
+.OrganicSec .OrganicFood .ParaSec {
+  text-align: left;
+  font-size: 18px;
+  font-weight: 400;
+  padding: 10px 20px;
+}
+
+.FruitSec {
+  display: flex;
+}
+.FruitSec .SetofImg {
+  margin-top: 42px;
+  width: 100%;
+}
+.FruitSec .SetofImg h3 {
+  color: #ECA729;
+  font-Weight: 700;
+  font-size: 28px;
+  text-align: center;
+  margin-bottom: 53px;
+}
+.FruitSec .SetofImg .Products {
+  display: flex;
+  flex-wrap: wrap;
+  width: 85%;
+  height: 100%;
+  text-align: center;
+  margin: auto;
+}
+.FruitSec .SetofImg .Products li {
+  flex-basis: 25%;
+}
+.FruitSec .SetofImg .Products li h5 {
+  color: #575757;
+}
+.FruitSec .fruitlogo {
+  position: relative;
+  background-color: #E5E5E5;
+}
+.FruitSec .LogoFirst {
+  position: absolute;
+  border-radius: 100px;
+  width: 180px;
+  height: 180px;
+  background: #E1FFD4;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  top: 40%;
+  right: -80px;
+}
+
+.WhyUnique {
+  width: 100%;
+  height: 80%;
+  background: #F8F4F1;
+}
+.WhyUnique h3 {
+  color: #ECA729;
+  font-Weight: 700;
+  font-size: 28px;
+  text-align: center;
+  padding: 150px;
+}
+.WhyUnique .ChemicalSec {
+  display: flex;
+  justify-content: space-between;
+  margin: auto;
+  width: 80%;
+}
+.WhyUnique .ChemicalSec .MilkSec {
+  flex-basis: 33%;
+  position: relative;
+}
+.WhyUnique .ChemicalSec .MilkSec img {
+  background: #FFFFFF;
+  width: 102px;
+  border: 2px solid #ECA729;
+  box-sizing: border-box;
+  border-radius: 80px;
+  position: absolute;
+  bottom: 113px;
+  left: -49px;
+}
+.WhyUnique .ChemicalSec .MilkSec .Milk {
+  width: 300px;
+  background: #FFFFFF;
+  box-shadow: -4px 4px 0px 4px rgba(233, 233, 233, 0.2);
+  border-radius: 96px 6px;
+  align-items: center;
+  border-radius: 60px 0px 60px 5px;
+  padding: 40px;
+}
+.WhyUnique .ChemicalSec .MilkSec .Milk h5 {
+  color: #ECA729;
+  font-size: 18px;
+  font-weight: 700;
+  text-align: center;
+}
+.WhyUnique .ChemicalSec .MilkSec .Milk p {
+  color: #575757;
+  font-size: 16px;
+  text-align: center;
+}
+
+.OurProducts h3 {
+  color: #ECA729;
+  font-Weight: 700;
+  font-size: 28px;
+  text-align: center;
+  margin: 100px 0;
+}
+.OurProducts .NutritionSec {
+  display: flex;
+}
+.OurProducts .NutritionSec .NutriSec {
+  width: 20%;
+  background-image: url(/training/images/whyunique/ourproducts.png);
+  background-repeat: no-repeat;
+  text-align: center;
+}
+.OurProducts .NutritionSec .NutriSec h3 {
+  color: #FFFFFF;
+  width: 291px;
+  margin-top: 30px;
+}
+.OurProducts .NutritionSec .NutriSec button {
+  color: #FFFFFF;
+  border-radius: 12px;
+  padding: 5px 10px;
+  background: none;
+  border: 2px solid #FFFFFF;
+  margin-top: 30px;
+  font-family: Lora;
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 31px;
+}
+.OurProducts .NutritionSec .AlmondSec {
+  display: flex;
+  width: 100%;
+  justify-content: space-around;
+}
+.OurProducts .NutritionSec .AlmondSec .Whitebottle {
+  border: 1px solid #E9E9E9;
+  text-align: center;
+}
+.OurProducts .NutritionSec .AlmondSec .Whitebottle p {
+  margin-bottom: 20px;
+  color: #575757;
+}
+.OurProducts .NutritionSec .AlmondSec .Whitebottle span {
+  color: #575757;
+}
+.OurProducts .NutritionSec .AlmondSec .Whitebottle .IPbutton img {
+  background-color: #759264;
+  border: 1px solid black;
+  border-radius: 16px;
+  width: 30px;
+  height: 30px;
+}
+.OurProducts .NutritionSec .AlmondSec .Whitebottle .IPbutton input {
+  width: 100px;
+  text-align: center;
+  margin: 20px 20px;
+  padding: 10px;
+  color: #575757;
+  background: #FFFFFF;
+  border: 1px solid #C4C4C4;
+  border-radius: 20px;
+  outline: none;
+}
+.OurProducts .NutritionSec .AlmondSec .Whitebottle div button {
+  width: 175px;
+  padding: 10px;
+  border-radius: 50px;
+  border: 1px solid #C4C4C4;
+  background: #759264;
+  color: #FFFFFF;
+  cursor: pointer;
+}
+.OurProducts .NutritionSec .AlmondSec .Whitebottle div button:active {
+  color: #ECA729;
+}
+
+footer {
+  background-color: #E1FFD4;
+}
+footer .Cereals {
+  margin: 30px;
+  border-bottom: 2px solid #ECA729;
+}
+footer .Cereals h4 {
+  font-weight: 700;
+  font-size: 20px;
+  color: #575757;
+  margin-top: 100px;
+}
+footer .Cereals p {
+  line-height: 33px;
+  font-weight: 400;
+  font-size: 16px;
+  color: #575757;
+  margin-bottom: 37px;
+}
+footer .CopyRight {
+  background-color: #ECA729;
+  font-weight: 700, bold;
+  font-size: 20px;
+  text-align: center;
+}
+footer .CopyRight P {
+  padding: 10px 0;
+  margin: 0;
+}
+footer .Allabout {
+  display: flex;
+  width: 90%;
+  margin: auto;
+  justify-content: space-between;
+  padding: 20px;
+}
+footer .Allabout .AboutusSec {
+  flex-basis: 25%;
+}
+footer .Allabout .AboutusSec h4 {
+  font-weight: 700;
+  font-size: 20px;
+  color: #575757;
+  margin-top: 10px;
+}
+footer .Allabout .AboutusSec p {
+  margin-top: 16px;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 20px;
+  text-align: justify;
+  color: #575757;
+  margin: 16px 0;
+}
+footer .Allabout .AboutusSec .iconsec {
+  margin-top: 16px;
+  cursor: pointer;
+}
+footer .Allabout .AboutusSec span {
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 20px;
+  margin-top: 16px;
+}
+footer .Allabout .Touch {
+  flex-basis: 25%;
+}
+footer .Allabout .Touch h4 {
+  font-weight: 700;
+  font-size: 20px;
+  color: #575757;
+  margin-top: 10px;
+}
+footer .Allabout .Touch p {
+  margin: 20px 0;
+  color: #575757;
+}
+footer .Allabout .Touch p a {
+  margin-top: 16px;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 20px;
+  text-align: justify;
+  color: #575757;
+  text-decoration: none;
+}
+footer .Allabout .Touch span {
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 20px;
+  cursor: pointer;
+}
+footer .Allabout .QuickLink h4 {
+  font-weight: 700;
+  font-size: 20px;
+  color: #575757;
+  margin-bottom: 20px;
+}
+footer .Allabout .QuickLink ul li {
+  margin-bottom: 14px;
+}
+footer .Allabout .QuickLink ul li a {
+  color: #575757;
+  text-decoration: none;
+}
+footer .Allabout .Usefull h4 {
+  font-weight: 700;
+  font-size: 20px;
+  color: #575757;
+  margin-bottom: 20px;
+}
+footer .Allabout .Usefull ul {
+  cursor: pointer;
+}
+footer .Allabout .Usefull ul li {
+  margin-bottom: 16px;
+}
+footer .Allabout .Usefull ul li a {
+  color: #575757;
+  text-decoration: none;
+}
+
+.Test {
+  width: 100%;
+  color: #F8F4F1;
+}
+.Test h3 {
+  color: #ECA729;
+  font-Weight: 700;
+  font-size: 28px;
+  text-align: center;
+  margin: 100px;
+}
+.Test .AllContentSec {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  width: 100%;
+}
+.Test .AllContentSec .ArrowFirst {
+  margin-right: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 30px;
+  width: 50px;
+  height: 50px;
+  background: #ECA729;
+}
+.Test .AllContentSec .ArrowSecond {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 30px;
+  width: 50px;
+  height: 50px;
+  background: #ECA729;
+}
+.Test .AllContentSec .ArrowSecond img {
+  transform: rotate(180deg);
+}
+.Test .AllContentSec .TestimonialSec {
+  display: flex;
+  background: #FFFFFF;
+  width: 100%;
+  justify-content: space-evenly;
+  margin: auto;
+  border: 1px solid #FFFFFF;
+  box-shadow: -4px 4px 0px 4px rgba(233, 233, 233, 0.2);
+}
+.Test .AllContentSec .TestimonialSec .Vithiya {
+  width: 25%;
+}
+.Test .AllContentSec .TestimonialSec .Vithiya h4 {
+  color: #759264;
+  font-weight: 700;
+  font-size: 20px;
+  margin: 30px 0;
+}
+.Test .AllContentSec .TestimonialSec .Vithiya p {
+  color: #ECA729;
+}
+.Test .AllContentSec .TestimonialSec .Vithiya .Mumbai p {
+  color: #000000;
+  margin: 20px 0;
+  text-align: left;
+}
+
+/*# sourceMappingURL=style.css.map */
